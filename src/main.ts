@@ -9,3 +9,4 @@ equipo1.agregarJugador(j1);
 equipo1.agregarJugador(j2);
 
 console.log(equipo1.toString());
+console.log(`Cantidad de jugadores en ${equipo1.nombre}: ${equipo1.cantidad}`);

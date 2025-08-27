@@ -17,4 +17,8 @@ export class Equipo implements ICompetidor {
     toString(): string {
         return `Equipo: ${this.nombre}, Jugadores: [${this.listarIntegrantes().join(", ")}]`;
     }
+
+    get cantidad(): number {
+        return this.jugadores.length;
+    }
 }
