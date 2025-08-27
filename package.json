@@ -1,0 +1,28 @@
+{
+  "name": "tp1-florenciano-gaston",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --loader ts-node/esm src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GastonFlorenciano/tp1-florenciano-gaston.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GastonFlorenciano/tp1-florenciano-gaston/issues"
+  },
+  "homepage": "https://github.com/GastonFlorenciano/tp1-florenciano-gaston#readme",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
